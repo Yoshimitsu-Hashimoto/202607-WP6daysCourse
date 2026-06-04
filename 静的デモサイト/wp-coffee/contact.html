@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ | WP COFFEE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header is-filled">
+  <a class="site-logo" href="index.html">WP<span class="site-logo__sub">COFFEE</span></a>
+  <nav class="site-nav">
+    <ul class="site-nav__items">
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="story.html">STORY</a></li>
+      <li><a href="concept.html">CONCEPT</a></li>
+      <li><a href="space.html">SPACE</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <div class="page-eyebrow">
+    <h1 class="page-eyebrow__en">CONTACT</h1>
+    <p class="page-eyebrow__ja">お問い合わせ</p>
+  </div>
+
+  <section class="page-body">
+    <div class="container" style="max-width:720px;">
+
+      <p class="page-lead" style="text-align:center; margin-bottom:16px;">ご質問・ご相談はお気軽にどうぞ。</p>
+      <p style="text-align:center; font-size:0.82rem; color:var(--c-muted); margin-bottom:64px;">
+        通常2営業日以内にご返信いたします。<br>
+        お急ぎの場合はお電話（03-0000-0000）にてお問い合わせください。
+      </p>
+
+      <form class="form-block" action="#" method="post">
+
+        <div class="form-row">
+          <label class="form-label" for="name">
+            お名前 <span class="required">必須</span>
+          </label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="山田 太郎" required>
+        </div>
+
+        <div class="form-row">
+          <label class="form-label" for="email">
+            メールアドレス <span class="required">必須</span>
+          </label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="example@mail.com" required>
+        </div>
+
+        <div class="form-row">
+          <label class="form-label" for="subject">件名</label>
+          <input class="form-input" type="text" id="subject" name="subject" placeholder="お問い合わせ件名">
+        </div>
+
+        <div class="form-row">
+          <label class="form-label" for="message">
+            メッセージ <span class="required">必須</span>
+          </label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="ご質問・ご相談内容をご記入ください。" required></textarea>
+        </div>
+
+        <p class="form-note">
+          ご入力いただいた個人情報は、お問い合わせへの返信目的のみに使用し、第三者への提供は行いません。
+        </p>
+
+        <div class="form-submit">
+          <button class="btn btn--dark" type="submit">送信する</button>
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="footer-logo">WP<span class="footer-logo__sub">COFFEE</span></p>
+      <p class="footer-tagline">豆のすべてを、一杯に。<br>スペシャルティコーヒーの専門店</p>
+      <address class="footer-address">東京都渋谷区〇〇町 1-2-3<br>TEL 03-0000-0000<br>営業時間 9:00–19:00（水曜定休）</address>
+    </div>
+    <nav class="footer-nav-grid">
+      <div class="footer-nav-group">
+        <p class="footer-nav-group__heading">ABOUT</p>
+        <ul class="footer-nav-group__items">
+          <li><a href="story.html">ストーリー</a></li>
+          <li><a href="concept.html">こだわり</a></li>
+          <li><a href="space.html">店内スペース</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav-group">
+        <p class="footer-nav-group__heading">MENU</p>
+        <ul class="footer-nav-group__items">
+          <li><a href="menu.html">ドリンク</a></li>
+          <li><a href="menu.html">フード</a></li>
+          <li><a href="menu.html">豆の販売</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav-group">
+        <p class="footer-nav-group__heading">VISIT</p>
+        <ul class="footer-nav-group__items">
+          <li><a href="visit.html">ご来店ガイド</a></li>
+          <li><a href="faq.html">よくあるご質問</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <p class="footer-copy">© 2026 WP COFFEE. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
