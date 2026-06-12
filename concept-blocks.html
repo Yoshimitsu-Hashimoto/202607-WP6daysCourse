@@ -1,0 +1,113 @@
+<!-- ============================================================
+   WP COFFEE - こだわり（CONCEPT）ページ
+   ブロックエディター用HTML（9-2 手順用）
+
+   【使い方】
+   管理画面 → 固定ページ →「こだわり」を編集
+   右上の「⋮」→「コードエディター」を開いて全文を貼り付ける
+   ※ 画像は貼り付け後にエディター上で各ブロックに追加する
+
+   【ブロック構成】
+   ① メディアとテキスト × 3（左・右・左）— 産地/焙煎/抽出
+   ② 見出し H2 + カラム 3列      — OUR VALUES / 3つの想い
+   ③ 見出し H2 + テーブル         — ORIGINS / 取り扱い産地
+   ④ グループ（背景色付き）        — まとめ（9-3 の theme.json 設定後に背景色を適用）
+============================================================ -->
+
+<!-- ① 産地との対話（split--dark → メディアとテキスト 画像:左） -->
+<!-- wp:media-text -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"></figure><div class="wp-block-media-text__content"><!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">産地との対話</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>WP COFFEEの豆選びは、農園への訪問から始まります。現地の土壌、気候、農家の哲学——そのすべてを理解した上で、年間を通じて仕入れる豆を決定します。数字だけで判断せず、五感で確かめることが私たちのこだわりです。</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- ① 少量焙煎の誠実さ（split--light + flip → メディアとテキスト 画像:右） -->
+<!-- wp:media-text {"mediaPosition":"right"} -->
+<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">少量焙煎の誠実さ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>焙煎は毎日少量ずつ、豆の状態に合わせて温度と時間を調整しながら行います。大量生産では決して出せない、豆本来のポテンシャルを引き出すために。焙煎士が一バッチごとに向き合い、納得のいく一焼きだけをお届けします。</p>
+<!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"></figure></div>
+<!-- /wp:media-text -->
+
+<!-- ① 一杯への集中（split--dark → メディアとテキスト 画像:左） -->
+<!-- wp:media-text -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"></figure><div class="wp-block-media-text__content"><!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">一杯への集中</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>抽出は、豆・水・温度・時間のバランスで決まります。バリスタは毎朝グラインドの粒度と湯温を確認し、その日の豆のコンディションに合わせて微調整します。お客様に届く一杯は、その日その時だけのものです。</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- ② OUR VALUES / 私たちの3つの想い（block-feature → カラム 3列） -->
+<!-- wp:paragraph -->
+<p>OUR VALUES</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">私たちの3つの想い</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">透明性</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>豆の産地・農家・精製方法をすべて公開します。何が入っているかを知って飲む、それがスペシャルティコーヒーの醍醐味です。</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">持続可能性</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>適正価格での直接取引を基本とし、農家の生活を守る取り組みを続けます。良いコーヒーは、豊かな農園から生まれます。</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">静かな体験</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>喧騒を離れ、一杯と向き合う時間を。店内の設計も、音楽も、すべて「静けさ」を中心に考えています。</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- ③ ORIGINS / 取り扱い産地（block-table → テーブル） -->
+<!-- wp:paragraph -->
+<p>ORIGINS</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">取り扱い産地</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><thead><tr><th>産地</th><th>精製方法</th><th>風味の特徴</th><th>おすすめの飲み方</th></tr></thead><tbody><tr><td>エチオピア イルガチェフェ</td><td>ナチュラル</td><td>ブルーベリー、ジャスミン、ワインのような複雑さ</td><td>ハンドドリップ・エスプレッソ</td></tr><tr><td>コロンビア ウイラ</td><td>ウォッシュド</td><td>ブラウンシュガー、オレンジ、やわらかな酸味</td><td>ラテ・カプチーノ</td></tr><tr><td>グアテマラ アンティグア</td><td>ハニー</td><td>キャラメル、ピーチ、なめらかなボディ</td><td>ドリップ・フレンチプレス</td></tr><tr><td>ケニア キリニャガ</td><td>ウォッシュド</td><td>カシス、グレープフルーツ、鮮明な酸味</td><td>ハンドドリップ</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- ④ グループ（背景色付き） — 9-3 の theme.json 設定後に「クリーム」背景を適用する -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>豆に、正直に。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>産地から一杯まで、妥協なく向き合うことが私たちの約束です。ぜひ WP COFFEE で、その違いを感じてください。</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
